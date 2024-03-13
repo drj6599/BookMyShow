@@ -17,7 +17,7 @@ public class Ticket extends BaseModel{
     @OneToMany
     private List<ShowSeat> showSeats;
     @ManyToOne
-    private Show show;
+    private MovieShow movieShow;
     @Enumerated(EnumType.STRING)
     private TicketStatus ticketStatus;
 }
