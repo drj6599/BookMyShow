@@ -15,9 +15,9 @@ public class Ticket extends BaseModel{
     private LocalDateTime timeOfBooking;
     private double totalAmount;
     @OneToMany
-    private List<ShowSeat> showSeats;
+    private List<MovieShowSeat> movieShowSeats;
     @ManyToOne
-    private Show show;
+    private MovieShow movieShow;
     @Enumerated(EnumType.STRING)
     private TicketStatus ticketStatus;
 }

@@ -1,5 +1,5 @@
 package dev.dheeraj.BookMyShow.model.constant;
 
-public enum ShowSeatStatus {
+public enum MovieShowSeatStatus {
     AVAILABLE, LOCKED, BOOKED;
 }
